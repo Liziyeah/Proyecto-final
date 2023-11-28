@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'Chocolates-semibold';
+    src: url('../../assets/fonts/TT\ Chocolates\ Trial\ DemiBold.otf')
+        format('truetype');
+}
+
+@font-face {
+    font-family: 'Chocolates-light';
+    src: url('../../assets/fonts/TT\ Chocolates\ Trial\ Light.otf')
+        format('truetype');
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Chocolates-light';
+    background-color: rgb(38, 38, 38);
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    width: auto;
+    height: 4rem;
+    color: white;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+header .menu :hover {
+    transform: scale(110%);
+    color: red;
+}
+header .login :hover {
+    transform: scale(110%);
+    color: red;
+}
+header .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100vw;
+}
+header .login {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 40vh;
+}
+
+.titulo {
+    margin: 2rem;
+    color: white;
+    font-family: 'Chocolates-semibold';
+    font-size: 2rem;
+}
+.contenedor {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    max-width: 1100px;
+}
+
+.cards {
+    width: 100%;
+    margin: 1rem;
+    border-radius: 10px;
+    overflow: hidden;
+    background: gray;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+}
+
+.cards:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+
+.cards img {
+    width: 100%;
+    height: 150px;
+}
+
+.button {
+    text-align: center;
+    background: none;
+    border-radius: 20px;
+}
+
+.btn {
+    width: 5em;
+    height: 2em;
+    font-size: 1.3rem;
+    font-family: 'Chocolates-light';
+    background: none;
+    outline: none;
+    color: white;
+    border-color: white;
+    cursor: pointer;
+}
+
+.content-cards {
+    color: white;
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+}
+
+.content-cards p {
+    margin-top: 1rem;
+    padding: 1rem;
+}

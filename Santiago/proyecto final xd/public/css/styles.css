@@ -1,0 +1,214 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    font-family: "Chocolates-light";
+    background-color: black;
+}
+
+@font-face {
+    font-family: 'Chocolates-semibold';
+    src: url(/TT\ Chocolates\ Trial\ DemiBold.otf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Chocolates-light';
+src: url(./TT\ Chocolates\ Trial\ Light.otf) format('truetype');
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: black; */
+    border: 2px solid black;
+    width: auto;
+    height: 4rem;
+    /* color: white; */
+    font-size: large;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    width: 20rem;
+}
+
+.header__menu a:hover{
+    transform: scale(1.1);
+    color: red;
+}
+
+.header__menu--login {
+    display: flex;
+    justify-content: space-between;
+    width: 15rem;
+}
+
+.header__menu--login a:hover{
+    transform: scale(1.1);
+    color: red;
+}
+
+.banner {
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.presentacion {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    background-size: 100% 100%;
+    padding: 1rem;
+}
+
+.presentacion__Acerca-de {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    color: white;
+    font-family: "Chocolates-semibold";
+    font-size: medium;
+}
+
+.presentacion__carrusel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.presentacion__carrusel--slider {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    width: 25rem;
+    height: 20rem;
+    background-color: white;
+}
+#fondo {
+    width: 25rem; 
+    height: 100%;
+}
+#fondo img {
+    width: 25rem; /* Ancho al 100% para que se distorsionen y se ajusten al contenedor */
+    height: 100%; /* Alto al 100% para que se ajusten al contenedor */
+}
+
+
+.presentacion__carrusel--slider::-webkit-scrollbar {
+    background-color: white; 
+    border-radius: 4px; 
+  }
+
+  /* Nosotros */
+
+  .titulo {
+    margin: 1px 0;
+    color:white;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+
+  }
+  
+  .creadores {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    font-size: small;
+    padding: .5rem;
+    box-sizing: border-box;
+  }
+
+  .creadores__contenido--creador-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    box-sizing: border-box;
+  }
+  
+  .creadores__contenido--creador-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+  }
+
+  .creador__contenido--imagen-1 img {
+    border-radius: 100%;
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .creador__contenido--imagen-2 img {
+    border-radius: 100%;
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .creador__contenido--creador--descripción {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20rem;
+    height: 11rem;
+    box-sizing: content-box;
+  }
+
+  .final {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 4rem;
+  }
+  .contactanos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: red;
+    width: 7rem;
+    border-radius: 10px;
+    padding: .5rem;
+    height: 2rem;
+    box-sizing: border-box;
+  }
+
+  .contactanos a {
+    text-decoration: none;
+    color: white;
+  }
+
+  
+
+
+
+  

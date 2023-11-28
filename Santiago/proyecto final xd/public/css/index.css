@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'Chocolates-semibold';
+    src: url('../../assets/fonts/TT\ Chocolates\ Trial\ DemiBold.otf')
+        format('truetype');
+}
+
+@font-face {
+    font-family: 'Chocolates-light';
+    src: url('../../assets/fonts/TT\ Chocolates\ Trial\ Light.otf')
+        format('truetype');
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url('../../assets/images/1366_2000.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+
+.buscar input {
+    width: 38rem;
+    height: 1.8rem;
+    font-size: 1rem;
+    outline: none;
+    border-radius: 30px;
+    padding: 0 1rem;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    background-color: black;
+    width: auto;
+    height: 4rem;
+    color: white;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Chocolates-light';
+}
+header .menu :hover {
+    transform: scale(110%);
+    color: red;
+}
+header .login :hover {
+    transform: scale(110%);
+    color: red;
+}
+header .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 40vw;
+}
+header .login {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 40vh;
+}
+
+.row {
+    display: flex;
+    height: 88%;
+    align-items: center;
+    margin-left: 4rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.col {
+    flex-basis: 40%;
+}
+h1 {
+    color: white;
+    font-size: 6rem;
+    font-family: 'Chocolates-semibold';
+}
+
+p {
+    color: white;
+    font-size: 1.3rem;
+    font-family: 'Chocolates-light';
+}
+
+button {
+    width: 11.25rem;
+    color: white;
+    font-size: 0.75rem;
+    padding: 0.75rem 0;
+    background-color: red;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 1.875rem;
+}
+
+button:hover {
+    transform: 0.9s;
+    background-color: brown;
+}
+
+.card {
+    width: 12rem;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 0.938rem 1.98rem;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 0.625rem 0.98rem;
+    cursor: pointer;
+    background-image: url('../../assets/images/7685d0ee8581571d7fa2ecf1af3d6b8e.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.card h5 {
+    font-size: 2rem;
+    font-family: 'Chocolates-semibold';
+    color: white;
+}
+
+.card p {
+    font-size: 0.9rem;
+}
+.card2 {
+    background-image: url('../../assets/images/7685d0ee8581571d7fa2ecf1af3d6b8e.jpg');
+}
+.card3 {
+    background-image: url('../../assets/images/7685d0ee8581571d7fa2ecf1af3d6b8e.jpg');
+}
+.card4 {
+    background-image: url('../../assets/images/7685d0ee8581571d7fa2ecf1af3d6b8e.jpg');
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}

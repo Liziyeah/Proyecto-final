@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'Chocolates-semibold';
+    src: url('../../assets/fonts/TT\ Chocolates\ Trial\ DemiBold.otf')
+        format('truetype');
+}
+
+@font-face {
+    font-family: 'Chocolates-light';
+    src: url('../../assets/fonts/TT\ Chocolates\ Trial\ Light.otf')
+        format('truetype');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    width: auto;
+    height: 4rem;
+    color: white;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+header .menu :hover {
+    transform: scale(110%);
+    color: red;
+}
+header .login :hover {
+    transform: scale(110%);
+    color: red;
+}
+header .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50vw;
+}
+header .login {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 40vh;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Chocolates-semibold', sans-serif;
+}
+
+.title > div > h1 {
+    margin: 1px 0;
+    padding: 30px;
+    font-size: 5rem;
+}
+
+.creadores {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.contenidoCreador {
+    display: flex;
+    width: 45%;
+    justify-content: space-between;
+}
+
+.imagenCreador {
+    width: 50%;
+}
+
+.imagenCreador > figure,
+.imagenCreador > figure > img {
+    width: 100%;
+    height: 100%;
+}
+
+.imagenCreador > h2 {
+    width: 100%;
+    text-align: center;
+    margin-top: 1.2rem;
+}
+
+.descripcionCreador {
+    font-family: 'Chocolates-light';
+    width: 47%;
+}
+
+.descripcionCreador > h1 {
+    font-size: 2.5rem;
+    font-family: 'Chocolates-demibold';
+    margin: 1rem;
+}

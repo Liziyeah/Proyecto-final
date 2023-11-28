@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Chocolates-semibold';
+    padding: 0 1.5rem;
+}
+
+@font-face {
+    font-family: 'Chocolates-semibold';
+    src: url('../../assets/fonts/TT\ Chocolates\ Trial\ DemiBold.otf')
+        format('truetype');
+}
+
+@font-face {
+    font-family: 'Chocolates-light';
+    src: url('../../assets/fonts/TT\ Chocolates\ Trial\ Light.otf')
+        format('truetype');
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    width: auto;
+    height: 4rem;
+    color: white;
+    font-size: medium;
+    font-family: 'Chocolates-light';
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+header .header__menu :hover {
+    transform: scale(110%);
+    color: red;
+}
+header .header__menu__login :hover {
+    transform: scale(110%);
+    color: red;
+}
+header .header__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50vw;
+}
+header .header__menu__login {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 40vh;
+}
+.content {
+    max-width: 1800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5rem;
+}
+
+.contact-form {
+    margin: 2.5rem;
+}
+
+.logo {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.contact-wrapper > * {
+    padding: 1em;
+}
+
+.contact-form {
+    background: #222222;
+}
+
+.contact-form form p {
+    margin: 0;
+    padding: 1em;
+}
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+    width: 100%;
+    padding: 0.7em;
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 1px solid red;
+    color: white;
+}
+
+.contact-form form button {
+    background: red;
+    padding: 2rem;
+    border: 0;
+    text-transform: uppercase;
+}
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+    transform: 0.8s;
+    background: rgb(129, 129, 129);
+}
+
+.contact-info {
+    background: black;
+    margin: 2.5rem;
+    text-align: center;
+    font-family: 'Chocolates-light';
+}
+
+.contact-info h4 {
+    font-size: 2rem;
+}
+
+.contact-info ul {
+    font-size: 1.5rem;
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info ul li {
+    padding: 0.3em;
+}

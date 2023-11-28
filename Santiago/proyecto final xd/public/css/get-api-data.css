@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Chocolates-semibold";
+    src: url(/TT\ Chocolates\ Trial\ DemiBold.otf) format("truetype");
+  }
+  
+  @font-face {
+    font-family: "Chocolates-light";
+    src: url(./TT\ Chocolates\ Trial\ Light.otf) format("truetype");
+  }
+
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    width: auto;
+    height: 4rem;
+    color: white;
+    font-family: "Chocolates-light";
+    font-size: medium;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+header .header__menu :hover {
+    transform: scale(110%);
+    color: red;
+}
+header .header__menu--login :hover {
+    transform: scale(110%);
+    color: red;
+}
+header .header__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50vw;
+}
+header .header__menu--login {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 40vh;
+}
+
+
+
+main {
+    max-width: 1000px;
+    margin-inline: auto;
+}
+
+main h1 {
+    font-family: 'Chocolates-semibold';
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+main .card-container {
+    width: 100%;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card-container .card {
+    padding: 10px 10px 0px 10px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card img {
+    border-radius: 8px;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.card p {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Chocolates-light';
+}
+
+.favorite-button {
+    background-color: red; 
+    color: white; 
+    padding: 10px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+
+.favorite-button:hover {
+    transform: scale(1.1);
+}
+
+.buscar {
+    width: 20rem;
+}
+
+.buscar input{
+    padding: .2rem;
+    width: 20rem;
+    border-radius: 10px;
+}

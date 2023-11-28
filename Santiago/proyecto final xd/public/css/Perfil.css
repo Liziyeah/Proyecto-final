@@ -1,0 +1,232 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: 'Chocolates-Demibold';
+src: url(./TT\ Chocolates\ Trial\ DemiBold.otf) format('truetype');
+}
+@font-face {
+    font-family: 'Chocolates-light';
+src: url(./TT\ Chocolates\ Trial\ Light.otf) format('truetype');
+}
+
+body {
+    background-color: black;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    width: auto;
+    height: 4rem;
+    color: white;
+    font-size: medium;
+    font-family: "Chocolates-light";
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+header .menu :hover {
+    transform: scale(110%);
+    color: red;
+}
+header .login :hover {
+    transform: scale(110%);
+    color: red;
+}
+header .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50vw;
+}
+header .login {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 40vh;
+}
+
+.cuerpo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.information {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    width: 65rem;
+    height: 28rem;
+
+}
+.derecha {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6rem;
+    height: 18rem;
+}
+.izquierda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.centro {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 2px solid white;
+    width: 35rem;
+    padding: rem;
+    height: 15rem;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    height: 22rem;
+    font-family: "Chocolates-light";
+    font-size: small;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    height: 18rem;
+    font-family: "Chocolates-light";
+    font-size: large;
+}
+.tuperfil {
+    font-family: "Chocolates-Demibold";
+    margin-bottom: 1rem;
+    font-size: large;
+}
+.Nombre {
+    border: none;
+    border-bottom: 2px solid white;
+    padding: 1rem;
+    width: 15rem;
+    height: 1rem;
+}
+.Apellido {
+    border: none;
+    border-bottom: 2px solid white;
+    padding: 1rem;
+    width: 15rem;
+    height: 1rem;
+}
+.Usuario {
+    border: none;
+    border-bottom: 2px solid white;
+    padding: 1rem;
+    width: 15rem;
+    height: 1rem;
+}
+.E-mail {
+    border: none;
+    border-bottom: 2px solid white;
+    padding: 1rem;
+    width: 15rem;
+    height: 1rem;
+}
+.Edad {
+    border: none;
+    padding: 1rem;
+    width: 15rem;
+    height: 1rem;
+}
+.Género {
+    border: none;
+    padding: 1rem;
+    width: 15rem;
+    height: 1rem;
+}
+.Cumple {
+    border: none;
+    padding: 1rem;
+    width: 15rem;
+    height: 1rem;
+}
+
+.Nombre-info {
+    border: none;
+    border-bottom: 2px solid white;
+    padding: 1rem;
+    width: 15rem;
+    height: 1rem;
+}
+.Apellido-info {
+    border: none;
+    border-bottom: 2px solid white;
+    padding: 1rem;
+    width: 15rem;
+    height: 1rem;
+}
+.Usuario-info {
+    border: none;
+    border-bottom: 2px solid white;
+    padding: 1rem;
+    width: 15rem;
+    height: 1rem;
+}
+.E-mail-info {
+    border: none;
+    border-bottom: 2px solid white;
+    padding: 1rem;
+    width: 15rem;
+    height: 1rem;
+}
+.Edad-info {
+    border: none;
+    padding: 1rem;
+    width: 15rem;
+    height: 1rem;
+}
+.Género-info {
+    border: none;
+    padding: 1rem;
+    width: 15rem;
+    height: 1rem;
+}
+.Cumple-info {
+    border: none;
+    padding: 1rem;
+    width: 15rem;
+    height: 1rem;
+}
+.Fotoperfil {
+    background-image: url("https://i.pinimg.com/564x/d9/7b/bb/d97bbb08017ac2309307f0822e63d082.jpg");
+    background-size: cover;
+    width: 23rem;
+    height: 19rem;
+    margin-bottom: 7rem;
+    margin-right: 2rem;
+}
+.botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;  
+    margin: 3rem;
+    margin-right: 6rem;
+}
+
+.botones a {
+    background-color: red;
+    padding: 1rem;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-family: "Chocolates-light";
+}
+.botones :hover {
+    transform: scale(1.1);
+}

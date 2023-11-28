@@ -1,0 +1,180 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: "Chocolates-semibold";
+    src: url(/TT\ Chocolates\ Trial\ DemiBold.otf) format("truetype");
+  }
+  
+  @font-face {
+    font-family: "Chocolates-light";
+    src: url(./TT\ Chocolates\ Trial\ Light.otf) format("truetype");
+  }
+body {
+    background-color: rgb(0, 0, 0);
+}
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    width: auto;
+    height: 4rem;
+    color: white;
+    font-family: "Chocolates-light";
+    font-size: medium;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+header .header__menu :hover {
+    transform: scale(110%);
+    color: red;
+}
+header .header__menu--login :hover {
+    transform: scale(110%);
+    color: red;
+}
+header .header__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50vw;
+}
+header .header__menu--login {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 40vh;
+}
+
+.Titulo {
+    font-size: large;
+    color: white;
+    margin-left: 1rem;
+    margin-top: 3rem;
+    font-family: "Chocolates-semibold";
+}
+
+.Contenedor {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.objeto {
+    position: relative;
+    width: 12rem;
+    height: 16rem;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    margin: 0.5rem;
+}
+
+.objeto a {
+    display: block;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+  }
+  
+.objeto:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+  }
+
+.item {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 12rem;
+    height: 16rem;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+
+}
+.espacio {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 0.5rem;
+}
+
+.espacio img {
+    width: 1.5rem;
+}
+
+.imagen {
+    border: 2px;
+    background-color: lightgray;
+    width: 12rem;
+    height: 13rem;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+.imagen img{
+    border: 2px;
+    width: 12rem;
+    height: 13rem;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.Favoritos .Contenedor {
+    width: 100%;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card-favorito {
+    margin: 1rem;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-favorito img {
+    border-radius: 8px;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.card-favorito p {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Chocolates-light';
+    color: white;
+}
+
+.card-favorito .additional-info {
+    font-family: 'Chocolates-light';
+}
+
+
+
+
