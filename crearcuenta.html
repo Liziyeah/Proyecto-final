@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Crea una cuenta</title>
+        <link rel="stylesheet" href="./public/css/crearcuenta.css" />
+        <script type="module" src="./js/crearCuenta.js" defer></script>
+        <script type="module" src="/js/header.js"></script>
+    </head>
+    <body>
+        <section>
+            <div class="contenedor">
+                <div class="contenedor__cuerpo">
+                    <div class="contenedor__cuerpo--Titulo">
+                        <h1>Crear cuenta</h1>
+                    </div>
+
+                    <div class="contenedor__cuerpo--formulario">
+                        <form id="formulario">
+                            <label for="Nombre">
+                                <p>Nombre</p>
+                            </label>
+                            <input
+                                type="text"
+                                placeholder="Ingrese su(s) nombre(s)"
+                                name="first_name"
+                                required
+                            />
+                            <label for="Apellido">
+                                <p>Apellido</p>
+                            </label>
+                            <input
+                                type="text"
+                                placeholder="Ingrese su(s) apellido(s)"
+                                name="last_name"
+                                required
+                            />
+                            <label for="Usuario">
+                                <p>Usuario</p>
+                            </label>
+                            <input
+                                type="text"
+                                placeholder="Ingrese su nombre de Usuario"
+                                name="username"
+                                required
+                            />
+                            <label for="Email">
+                                <p>Correo electrónico</p>
+                            </label>
+                            <input
+                                type="email"
+                                placeholder="Examples@gmail"
+                                autocomplete="username"
+                                name="email"
+                                required
+                            />
+                            <span id="email-alert" class="error-alert"></span>
+                            <label for="Fecha-de-nacimiento">
+                                <p>Fecha de nacimiento</p>
+                            </label>
+                            <input
+                                type="date"
+                                id="Fecha-de-nacimiento"
+                                name="birth_date"
+                                required
+                            />
+                            <label for="contraseña">
+                                <p>Crea una contraseña</p>
+                            </label>
+                            <input
+                                type="password"
+                                placeholder="Ingresa una contraseña"
+                                autocomplete="new-password"
+                                name="password"
+                                required
+                            />
+                            <span
+                                id="password-alert"
+                                class="error-alert"
+                            ></span>
+                            <label for="confirmación">
+                                <p>Confirma la contraseña</p>
+                            </label>
+                            <input
+                                type="password"
+                                placeholder="Confirma tu contraseña"
+                                autocomplete="new-password"
+                                name="confirm_password"
+                                required
+                            />
+                            <span
+                                id="confirm-password-alert"
+                                class="error-alert"
+                            ></span>
+                            <div class="boton">
+                                <button type="submit">Crear Cuenta</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

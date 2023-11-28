@@ -1,0 +1,80 @@
+{
+    "characters": [
+        {
+            "id": "979061a5-392d-4ab9-982a-e721f5f49e17",
+            "name": "Nick",
+            "description": "Es un lúdopata (adicto a los juegos) que estaba detenido, arrestado por fraude. Su vida lo ha llevado a aprender una gran lección: no confiar en nadie",
+            "image": "nick.jpg"
+        },
+        {
+            "id": "58f9895f-4fab-4989-b3e1-ae72ca8212af",
+            "name": "Zoey",
+            "description": "Zoey fue una vez una estudiante de Aldrich en Filadelfia con una beca para convertirse en directora de cine, pero en lugar de asistir a clases, pasó su tiempo viendo películas de terror y justificó esto a su madre enojada con esto como estar haciendo \"investigación\".",
+            "image": "zoey.jpg"
+        },
+        {
+            "id": "b138157a-ad9e-4c78-8db0-2d2eab4c27f3",
+            "name": "Ellis",
+            "description": "Ama la vida, se cree inmortal y puede tratar cualquier contratiempo como una diversión para impresionar a sus amigos.",
+            "image": "ellis.jpg"
+        },
+        {
+            "id": "4b9091fd-a011-458f-909d-661f5a192390",
+            "name": "Coach",
+            "description": "Es un hombre de gran corazón y mayor apetito que comenzó una carrera como defensa en su equipo de la universidad, pero una lesión en la rodilla le obligó a apartarse de ese futuro y acabó como profesor de educación física en una escuela secundaria en su ciudad natal.",
+            "image": "coach.jpg"
+        }
+    ],
+    "weapons": [
+        {
+            "id": "5f848539-3515-4238-837b-0bdc2fede30e",
+            "name": "Escopeta",
+            "description": "La escopeta permite recargar rápidamente en el camino, y el proceso de recarga puede ser detenido para reaccionar ante amenazas repentinas utilizando tiros ya cargadas.",
+            "image": "escopeta.webp"
+        },
+        {
+            "id": "da03ce23-7925-49de-a9e4-902a7b57253b",
+            "name": "M-16",
+            "description": "El rifle de asalto es el arma más flexible y capaz disponible. Tanto si se está limpiando una habitación, o se esta enfrentando a una horda o para ser usado como francotirador contra un infectado especial desde lejos.",
+            "image": "m16.webp"
+        },
+        {
+            "id": "db3c529a-ecb9-46d6-94e7-31e27a1bcafd",
+            "name": "MP5",
+            "description": "La MP5 es un arma de Tier 1 cadencia moderada, su daño es un poco mas bajo que el Subfusil Silenciado, pero mas alto que el Subfusil.",
+            "image": "mp5.webp"
+        },
+        {
+            "id": "c35d65b6-fd3b-449f-b75d-fa0180d94b30",
+            "name": "Franco",
+            "description": "El rifle de caza es un arma de medio a largo alcance y es el más adecuado para atacar objetivos en áreas abiertas.",
+            "image": "franco.webp"
+        }
+    ],
+    "enemies": [
+        {
+            "id": "e0595c82-1303-44df-b0d7-a7c142f1313b",
+            "name": "Tank",
+            "description": "El Tank es un infectado especial que se puede considerar como el más poderoso de entre los infectados en el juego, junto a la Witch.",
+            "image": "tank.jpg"
+        },
+        {
+            "id": "e2eec8ba-93d6-4840-ad71-58a70603d141",
+            "name": "Boomer",
+            "description": "El Boomer es un infectado especial extremadamente hinchado. Su mutación le ha dado la capacidad de producir inmensas cantidades de bilis que intentará vomitar sobre los supervivientes, cegándolos temporalmente y atrayendo a una pequeña horda.",
+            "image": "boomer.webp"
+        },
+        {
+            "id": "7363d8e6-96e7-4b9d-9f01-8e0b438aea24",
+            "name": "Smoker",
+            "description": "El Smoker es un infectado especial que se caracteriza por su lengua extremadamente larga. El Smoker impulsa su lengua fuera de su boca a gran velocidad hacia un superviviente, y cuando llega a uno de ellos, se enrosca alrededor del cuerpo del objetivo y lo arrastra de vuelta al Smoker.",
+            "image": "smoker.webp"
+        },
+        {
+            "id": "abdb4794-f54a-4862-9a50-2b8024084a88",
+            "name": "Hunter",
+            "description": "El Hunter es un infectado especial capaz de saltar grandes distancias y soportar grandes caídas aparentemente sin ningún problema.",
+            "image": "hunter.webp"
+        }
+    ]
+}

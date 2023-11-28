@@ -1,0 +1,113 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: black;
+}
+
+@font-face {
+    font-family: 'Chocolates-semibold';
+    src: url('../../assets/fonts/TT\ Chocolates\ Trial\ DemiBold.otf')
+        format('truetype');
+}
+
+@font-face {
+    font-family: 'Chocolates-light';
+    src: url('../../assets/fonts/TT\ Chocolates\ Trial\ Light.otf')
+        format('truetype');
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Cambiado a "flex-start" para alinear a la izquierda */
+    /* background-image: url(./fondologin_Mesa\ de\ trabajo\ 1.png); */
+    background-size: 100% 100%;
+    color: white;
+    background-color: black;
+}
+
+.contenedor__cuerpo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 40%;
+    margin-left: 60%;
+    font-size: large;
+    font-family: 'Chocolates-semibold';
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.error-alert {
+    font-size: 0.75rem;
+    color: red;
+}
+
+.contenedor__cuerpo--formulario input {
+    width: 20rem;
+    border: none;
+    outline: none;
+    color: #fff;
+    border: 2px solid white;
+    border-radius: 40px;
+    color: rgb(149, 149, 149);
+    padding: 10px 0px 10px 10px;
+    margin: 10px 0px;
+    text-decoration-color: rgb(0, 0, 0);
+    font-size: small;
+    box-sizing: border-box;
+}
+
+.contenedor__cuerpo--Titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20rem;
+    font-size: medium;
+}
+
+.contenedor__cuerpo--Ingresar {
+    font-family: 'Chocolates-light';
+    margin-top: 0.5rem;
+}
+.contenedor__cuerpo--Ingresar a {
+    margin: 0.5rem;
+    color: red;
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem 0rem;
+    width: 20rem;
+}
+
+.siguiente {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border-radius: 10px;
+    width: 7rem;
+    height: 3rem;
+    font-family: 'Chocolates-light';
+    font-size: medium;
+}
+
+.siguiente a {
+    color: white;
+    text-decoration: none;
+}
+
+.siguiente:hover {
+    transform: scale(1.1);
+}
